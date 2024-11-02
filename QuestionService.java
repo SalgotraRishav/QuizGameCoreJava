@@ -33,6 +33,7 @@ public class QuestionService {
             
             // Read user input for the selected answer
             Scanner sc = new Scanner(System.in);
+            System.out.print("Answer: ");
             selection[i] = sc.nextLine(); // Store the user's selection
             i++; // Increment the index for the next question
             System.err.println(); // Print a blank line for better readability
